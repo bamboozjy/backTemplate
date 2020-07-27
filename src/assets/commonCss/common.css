@@ -1,0 +1,65 @@
+  .flex {
+    display: flex;
+  }
+  .flexColumn {
+    flex-direction: column;
+  }
+  .flexcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexc {
+    display: flex;
+    align-items: center;
+  }
+  .flexsa {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flexsb {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flexsac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flexsbc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .posiCenter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .oneline {
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .twoline {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .threeline {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  .clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+  }
